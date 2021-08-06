@@ -596,11 +596,6 @@ video {
   margin-right: auto;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .h-screen {
   height: 100vh;
 }
@@ -664,11 +659,6 @@ video {
   .dark\:bg-blue-gray-700 {
     --tw-bg-opacity: 1;
     background-color: rgba(51, 65, 85, var(--tw-bg-opacity));
-  }
-
-  .dark\:bg-gray-600 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(82, 82, 91, var(--tw-bg-opacity));
   }
 
   .dark\:text-emerald-400 {
