@@ -10,7 +10,7 @@ function App() {
         <Container>
             <div>{count}</div>
             <div>
-                <button onClick={add} className="bg-black text-white">
+                <button onClick={add} className="bg- text-white">
                     click me
                 </button>
             </div>
