@@ -661,6 +661,11 @@ video {
     background-color: rgba(51, 65, 85, var(--tw-bg-opacity));
   }
 
+  .dark\:bg-\[\#2f3437\] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(47, 52, 55, var(--tw-bg-opacity));
+  }
+
   .dark\:text-emerald-400 {
     --tw-text-opacity: 1;
     color: rgba(52, 211, 153, var(--tw-text-opacity));
