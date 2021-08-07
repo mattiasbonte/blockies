@@ -6,4 +6,4 @@ Project for practicing newly aquired [react](https://reactjs.org), [typescript](
 
 ## Credits
 
--   [Random Word Api](https://github.com/mcnaveen/Random-Words-API)
+-   [Random Word Api](https://github.com/mcnaveen/Random-Words-API), [repo](https://github.com/mcnaveen/Random-Words-API/blob/main/index.js)
