@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react'
 
-function RandomWord() {
-    interface Word {
-        word: string
-        definition: string
-        pronunciation: string
-    }
+interface Word {
+    word: string
+    definition: string
+    pronunciation: string
+}
 
+function RandomWord() {
     const [data, setData]: [Word, Function] = useState({ word: '', definition: '', pronunciation: '' })
 
     useEffect(() => {
@@ -20,12 +20,12 @@ function RandomWord() {
     }
 
     return (
-        <div className=" flex flex-row items-center justify-between">
+        <div onClick={getData} className=" flex flex-row items-center justify-between cursor-pointer">
             <div>
-                <div onClick={getData} className="text-lg font-bold uppercase cursor-pointer">{data.word}</div>
+                <div className=" text-lg font-bold uppercase">{data.word}</div>
                 <div className="dark:text-yellow-400">{data.definition}</div>
             </div>
-            <div onClick={getData} className="hover:dark:text-yellow-400 hover:scale-125 hover:-rotate-90 transition-all duration-300 cursor-pointer">
+            <div className="hover:dark:text-yellow-400 hover:scale-125 hover:-rotate-90 bg-blue-gray-200/25 hover:shadow-md p-1 transition-all duration-300 rounded-full cursor-pointer">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path
                         fillRule="evenodd"
