@@ -1,19 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Container from './components/Container'
+import RandomWord from './components/RandomWord'
 
 function App() {
-    const [count, setCount]: [number, any] = useState(0)
-
-    const add: any = (): void => setCount(count + 1)
-
     return (
         <Container>
-            <div>{count}</div>
-            <div>
-                <button onClick={add} className="bg- text-white">
-                    click me
-                </button>
-            </div>
+            <RandomWord />
         </Container>
     )
 }
