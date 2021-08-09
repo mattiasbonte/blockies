@@ -8,7 +8,11 @@ interface Word {
 }
 
 const RandomWord = () => {
-    const [data, setData]: [Word, Function] = useState({ word: '', definition: '', pronunciation: '' })
+    const [data, setData]: [Word, Function] = useState({
+        word: '',
+        definition: '',
+        pronunciation: '',
+    })
 
     useEffect(() => {
         getData()
