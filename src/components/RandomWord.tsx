@@ -31,7 +31,7 @@ const RandomWord = () => {
                     <div className=" text-lg font-bold uppercase">{data.word}</div>
                     <div className="dark:text-yellow-400">{data.definition}</div>
                 </div>
-                <div className="hover:dark:text-yellow-400 hover:scale-125 hover:-rotate-90 bg-blue-gray-200/25 hover:shadow-md p-1 transition-all duration-300 rounded-full cursor-pointer">
+                <div className="hover:dark:text-yellow-400 hover:scale-110 hover:-rotate-90 bg-blue-gray-200/25 hover:shadow-md p-1 transition-all duration-300 rounded-full cursor-pointer">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path
                             fillRule="evenodd"
