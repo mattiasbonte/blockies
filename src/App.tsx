@@ -2,7 +2,7 @@ import React from 'react'
 import Container from './components/Container'
 import RandomWord from './components/RandomWord'
 
-function App() {
+const App = () => {
     return (
         <Container>
             <RandomWord />
