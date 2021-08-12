@@ -7,7 +7,7 @@ interface Word {
     pronunciation: string
 }
 
-const RandomWord = () => {
+const RandomWord = (): JSX.Element => {
     const [data, setData]: [Word, Function] = useState({
         word: '',
         definition: '',

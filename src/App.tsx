@@ -1,11 +1,11 @@
 import React from 'react'
 import Container from './components/Container'
-import RandomWord from './components/RandomWord'
+import Routes from './components/Routes'
 
 const App = () => {
     return (
         <Container>
-            <RandomWord />
+            <Routes />
         </Container>
     )
 }
