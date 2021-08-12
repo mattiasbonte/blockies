@@ -5,7 +5,7 @@
         "dev": "npm-run-all --parallel dev:*",
         "dev:server": "vite",
         "dev:css": "npx tailwindcss -o src/index.css --jit --watch --minify",
-        "build": "tsc && vite build",
+        "build": "tsc && vite build && echo '/* /index.html  200' | cat >build/_redirects",
         "serve": "vite preview"
     },
     "dependencies": {
